@@ -52,10 +52,13 @@
     "editor.defaultFormatter": null
   },
 
-  "workbench.colorTheme": "Learn with Sumit Theme - Dracula version",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
 
   // terminal
   "terminal.integrated.fontSize": 15,
+  "workbench.colorTheme": "Learn with Sumit Theme - Dracula version",
 
   // file exclude for run node js project in smooth position
   "files.exclude": {
