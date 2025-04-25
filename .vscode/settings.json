@@ -1,0 +1,72 @@
+{
+  // editor Settings
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "editor.lineHeight": 24,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // editor format settings
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  "editor.wordWrap": "on",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // tab width 4
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true
+  },
+
+  // config related to code formatting
+
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+
+  "workbench.colorTheme": "Learn with Sumit Theme - Dracula version",
+
+  // terminal
+  "terminal.integrated.fontSize": 15,
+
+  // file exclude for run node js project in smooth position
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/tmp": true,
+    "**/node_modules": true,
+    "**/dist": true
+  }
+}
