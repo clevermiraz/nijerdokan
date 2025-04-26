@@ -2,11 +2,13 @@
   "name": "nijerdokan",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate:types": "payload generate:types"
   },
   "dependencies": {
     "@payloadcms/db-mongodb": "^3.35.1",
