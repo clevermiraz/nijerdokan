@@ -1,14 +1,14 @@
 "use client";
 
+import { MenuIcon } from "lucide-react";
 import { Poppins } from "next/font/google";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 
+import NavbarSidebar from "@/components/NavbarSidebar";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { MenuIcon } from "lucide-react";
-import { usePathname } from "next/navigation";
-import NavbarSidebar from "./NavbarSidebar";
 
 const poppins = Poppins({
   subsets: ["latin"],
